@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :users
+  resources :campaigns
   get 'welcome/index'
 
   root 'welcome#index'
