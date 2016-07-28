@@ -8,9 +8,15 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <div class="container-fluid">
+
+    
+  <body>   
+   
+    <div class="container-fluid">         
+      
       <%= yield %>
+        <p class="notice"><%= notice %></p>
+        <p class="alert"><%= alert %></p>
     </div>
   </body>
 </html>
