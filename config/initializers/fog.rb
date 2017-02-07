@@ -30,5 +30,7 @@ CarrierWave.configure do |config|
   else
     config.storage :file
     config.enable_processing = false if Rails.env.test?
+    config.fog_directory    = ENV['AWS_BUCKET']
+    config.fog_public       = false
   end
 end
