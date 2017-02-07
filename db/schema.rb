@@ -10,10 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160728060553) do
+ActiveRecord::Schema.define(version: 20170207084309) do
 
   create_table "campaigns", force: :cascade do |t|
     t.string   "title"
+    t.string   "campaign_file"
     t.date     "start_date"
     t.date     "end_date"
     t.string   "theaters"
