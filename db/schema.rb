@@ -18,8 +18,8 @@ ActiveRecord::Schema.define(version: 20170207084309) do
     t.date     "start_date"
     t.date     "end_date"
     t.string   "theaters"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
     t.integer  "user_id"
   end
 

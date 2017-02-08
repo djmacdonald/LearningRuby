@@ -68,6 +68,7 @@
   <thead>
     <tr>      
       <th>Title</th>
+        <th>File</th>
       <th>Start date</th>
       <th>End date</th>
       <th>Theaters</th>
@@ -80,6 +81,9 @@
     <% @campaigns.each do |campaign| %>
       <tr>        
         <td><%= campaign.title %></td>
+          <tr>    
+        <td><%= campaign.campaign_file %></td>
+              <tr>    
         <td><%= campaign.start_date %></td>
         <td><%= campaign.end_date %></td>
         <td><%= campaign.theaters %></td>
