@@ -28,12 +28,11 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap', '~> 4.0.0.alpha3'
 
+gem 'carrierwave'
+gem 'mini_magick', '~> 3.5.0'
 gem 'fog'
-#gem 'fog-aws', group: :production
-gem 'carrierwave', '~> 1.0'
-gem "mini_magick"
-gem "figaro"
-
+gem 'figaro'
+gem 'unf'
 
 
 # Use Capistrano for deployment
